@@ -11,12 +11,12 @@ const App = () => {
   return (
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
+      <Hero id="home"/>
+      <About id="about" />
+      <Projects id="work" />
       {/* <Clients />
       <WorkExperience /> */}
-      <Contact />
+      <Contact id="contact"/>
       <Footer />
     </main>
   );
